@@ -11,7 +11,29 @@
 
 /* HEADER */
 
+header {
+    padding: 10px;
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: end;
 
+}
+
+.view {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: #4a4a4a;
+    border-radius: 8px;
+
+}
 
 
 /*/ HEADER */
