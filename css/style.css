@@ -14,19 +14,18 @@
 header {
     padding: 10px;
     height: 50px;
-    width: 100vw;
     background-color: black;
     display: flex;
     justify-content: end;
 
 }
 
-.view {
+header .view {
     display: flex;
     align-items: center;
 }
 
-.btn {
+header .view .btn {
     padding: 5px;
     margin-left: 10px;
     color: white;
@@ -41,8 +40,41 @@ header {
 
 /* MAIN */
 
+main {
+    background-color: black;
+    height: calc(100vh - 130px);
+    overflow-y: scroll;
+}
 
+main .container {
+    padding: 30px 80px;
+    max-width: 1750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+main .container .immagine {
+    margin: 4px;
+    width: calc(100% / 7 - 8px);
+    position: relative;
+}
+
+main .container .immagine img {
+    width: 100%;
+    display: block;
+}
+
+main .container .immagine .nome {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
 
 /*/ MAIN */
 
